@@ -1,0 +1,18 @@
+package bootcamp;
+
+public class Asciivalues {
+
+	public static void main(String[] args) 
+	{
+		//initializing variables using for loop
+		for(char ch='a' ;ch<='z';ch++)
+		{
+			//type casting char to int
+			int c=(int)ch;
+			//prompt the user for input values
+			System.out.println("the ascii values for  lower case alphabet of "  +ch+ " is "  +c);
+		}//end of for loop
+
+	}//end of main method
+
+}//end of class method
